@@ -10,7 +10,7 @@ async function online()
 			bot.user.setActivity(` Сервер offline`, {type: 0});
 		});
 }
-bot.login("ODMyMjg0MjUwMzMzMzgwNjM4.YHhjHA.B12I7QrmrZ3n9B9QAU3ZbsieJmk")
+bot.login(process.env.BOT_TOKEN)
 bot.on('ready', async () => {
 	console.log('BOT for ADR IS WORKING')
 	online()
