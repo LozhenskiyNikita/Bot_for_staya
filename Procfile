@@ -1,0 +1,1 @@
+worker: node Bot_ADRENALIN_NAM.js
