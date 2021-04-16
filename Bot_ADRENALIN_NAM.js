@@ -5,9 +5,9 @@ async function online()
 {
 	gamedig.query({type: 'dayz', host: '212.22.92.9', port: '2303'
 		}).then((state) => {
-			bot.user.setActivity(` Онлайн: ${state.raw.numplayers}/${state.maxplayers}`, {type: 0});
+			bot.user.setActivity(`ОНЛАЙН: ${state.raw.numplayers}/${state.maxplayers}`, {type: 0});
 		}).catch((error) => {
-			bot.user.setActivity(` Сервер offline`, {type: 0});
+			bot.user.setActivity(`СЕРВЕР ОТКЛЮЧЁН`, {type: 0});
 		});
 }
 bot.login(process.env.BOT_TOKEN)
