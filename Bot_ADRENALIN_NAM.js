@@ -16,3 +16,5 @@ bot.on('ready', async () => {
 	online()
 	setInterval(online, 10000)
 });
+
+//212.22.92.9:2303
