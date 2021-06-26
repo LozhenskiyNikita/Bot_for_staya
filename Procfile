@@ -1,1 +1,1 @@
-worker: node Bot_ADRENALIN_NAM.js
+worker: node Bot_Paradise_Dayz.js
